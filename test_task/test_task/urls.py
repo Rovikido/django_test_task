@@ -5,5 +5,5 @@ from core.views import ProductListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('products/', ProductListView.as_view(), name='product_list'),
+    path('', ProductListView.as_view(), name='product_list'),
 ]
